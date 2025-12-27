@@ -1,0 +1,1 @@
+2025-12-28 00:58:19,488 | INFO | ProductsPage | Hovering over element: ('xpath', "(//div[@class='product-image-wrapper'])[1]")

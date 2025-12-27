@@ -1,27 +1,60 @@
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
 from selenium.webdriver.support import expected_conditions as EC
+from pages.base_page import BasePage
+import allure
+
+
 class SignupLoginPage(BasePage):
 
-    Signup_Name = (By.XPATH, "//input[@data-qa='signup-name']")
-    Signup_Email = (By.XPATH, "//input[@data-qa='signup-email']")
-    Signup_Button = (By.XPATH, "//button[@data-qa='signup-button']")
+    SIGNUP_NAME = (By.XPATH, "//input[@data-qa='signup-name']")
+    SIGNUP_EMAIL = (By.XPATH, "//input[@data-qa='signup-email']")
+    SIGNUP_BUTTON = (By.XPATH, "//button[@data-qa='signup-button']")
 
-    Login_Email = (By.XPATH, "//input[@data-qa='login-email']")
-    Login_Password = (By.XPATH, "//input[@data-qa='login-password']")
-    Login_Button = (By.XPATH, "//button[@data-qa='login-button']")
+    LOGIN_EMAIL = (By.XPATH, "//input[@data-qa='login-email']")
+    LOGIN_PASSWORD = (By.XPATH, "//input[@data-qa='login-password']")
+    LOGIN_BUTTON = (By.XPATH, "//button[@data-qa='login-button']")
 
-    Logged_In_Text = (By.XPATH, "//a[contains(text(),'Logged in as')]")
+    LOGGED_IN_TEXT = (By.XPATH, "//a[contains(text(),'Logged in as')]")
 
+    # ---------------- Signup ----------------
+
+    @allure.step("Signup with name: {name} and email: {email}")
     def signup(self, name, email):
-        self.wait.until(EC.visibility_of_element_located(self.Signup_Name)).send_keys(name)
-        self.driver.find_element(*self.Signup_Email).send_keys(email)
-        self.driver.find_element(*self.Signup_Button).click()
+        self.logger.info(f"Starting signup with name='{name}', email='{email}'")
 
+        self.wait.until(
+            EC.visibility_of_element_located(self.SIGNUP_NAME)
+        ).send_keys(name)
+
+        self.driver.find_element(*self.SIGNUP_EMAIL).send_keys(email)
+        self.logger.info("Signup name and email entered")
+
+        self.driver.find_element(*self.SIGNUP_BUTTON).click()
+        self.logger.info("Signup button clicked")
+
+    # ---------------- Login ----------------
+
+    @allure.step("Login with email: {email}")
     def login(self, email, password):
-        self.wait.until(EC.visibility_of_element_located(self.Login_Email)).send_keys(email)
-        self.driver.find_element(*self.Login_Password).send_keys(password)
-        self.driver.find_element(*self.Login_Button).click()
+        self.logger.info(f"Attempting login with email='{email}'")
 
+        self.wait.until(
+            EC.visibility_of_element_located(self.LOGIN_EMAIL)
+        ).send_keys(email)
+
+        self.driver.find_element(*self.LOGIN_PASSWORD).send_keys(password)
+        self.logger.info("Login credentials entered (password masked)")
+
+        self.driver.find_element(*self.LOGIN_BUTTON).click()
+        self.logger.info("Login button clicked")
+
+    # ---------------- Verification ----------------
+
+    @allure.step("Verify user is logged in")
     def verify_login(self):
-        assert self.wait.until(EC.visibility_of_element_located(self.Logged_In_Text))
+        self.logger.info("Verifying user login status")
+        logged_in_element = self.wait.until(
+            EC.visibility_of_element_located(self.LOGGED_IN_TEXT)
+        )
+        assert logged_in_element is not None, "User is not logged in"
+        self.logger.info("User logged in successfully")

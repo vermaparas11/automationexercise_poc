@@ -1,0 +1,1 @@
+2025-12-28 00:58:53,455 | INFO | AccountCreationPage | Clicked Continue after account creation

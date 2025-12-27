@@ -1,0 +1,1 @@
+2025-12-28 00:59:13,148 | INFO | HomePage | Clicking on element: ('xpath', "//a[@href='/products']")

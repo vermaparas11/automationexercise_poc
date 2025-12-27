@@ -1,0 +1,1 @@
+2025-12-28 00:59:17,695 | INFO | test_search_cart_after_login | Adding all searched products to cart

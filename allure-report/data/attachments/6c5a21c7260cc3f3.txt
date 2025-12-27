@@ -1,0 +1,1 @@
+2025-12-28 00:58:45,047 | INFO | SignupLoginPage | Starting signup with name='User_rjumxy', email='user_rjumxy@testmail.com'

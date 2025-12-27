@@ -1,0 +1,1 @@
+2025-12-28 00:58:42,168 | INFO | test_invoice | Navigating to Signup / Login page

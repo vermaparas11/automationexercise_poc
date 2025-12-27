@@ -1,0 +1,1 @@
+2025-12-28 00:58:56,630 | INFO | CartPage | Clicking on element: ('xpath', "//a[text()='Proceed To Checkout']")

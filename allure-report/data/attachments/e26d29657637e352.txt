@@ -1,0 +1,99 @@
+2025-12-28 00:58:23,124 | INFO | test_invoice | ===== Test started: Download invoice after purchase =====
+2025-12-28 00:58:23,139 | INFO | test_invoice | Generated random user for test: user_rjumxy@testmail.com
+2025-12-28 00:58:23,143 | INFO | test_invoice | Launching AutomationExercise application
+2025-12-28 00:58:23,144 | INFO | HomePage | Navigating to AutomationExercise home page
+2025-12-28 00:58:28,001 | INFO | HomePage | Home page opened successfully
+2025-12-28 00:58:28,010 | INFO | HomePage | Verifying home page visibility using page title
+2025-12-28 00:58:28,044 | INFO | HomePage | Home page title verified: Automation Exercise
+2025-12-28 00:58:28,045 | INFO | test_invoice | Navigating to Products page
+2025-12-28 00:58:28,047 | INFO | HomePage | Clicking on Products button from home page
+2025-12-28 00:58:28,048 | INFO | HomePage | Clicking on element: ('xpath', "//a[@href='/products']")
+2025-12-28 00:58:30,408 | INFO | HomePage | Element clicked successfully
+2025-12-28 00:58:30,409 | INFO | test_invoice | Adding products to cart
+2025-12-28 00:58:30,412 | INFO | ProductsPage | Adding first product to cart
+2025-12-28 00:58:30,414 | INFO | ProductsPage | Adding product to cart using locator: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:30,416 | INFO | ProductsPage | Scrolling element into view: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:31,230 | INFO | ProductsPage | Element scrolled into view successfully
+2025-12-28 00:58:31,233 | INFO | ProductsPage | Hovering over element: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:31,625 | INFO | ProductsPage | Hover action performed successfully
+2025-12-28 00:58:31,682 | INFO | ProductsPage | Product added to cart
+2025-12-28 00:58:31,687 | INFO | ProductsPage | Continuing shopping after adding product
+2025-12-28 00:58:31,688 | INFO | ProductsPage | Clicking on element: ('xpath', "//button[@class='btn btn-success close-modal btn-block']")
+2025-12-28 00:58:32,445 | INFO | ProductsPage | Element clicked successfully
+2025-12-28 00:58:32,449 | INFO | ProductsPage | Adding second product to cart and navigating to cart
+2025-12-28 00:58:32,452 | INFO | ProductsPage | Adding product to cart using locator: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:32,454 | INFO | ProductsPage | Scrolling element into view: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:32,506 | INFO | ProductsPage | Element scrolled into view successfully
+2025-12-28 00:58:32,509 | INFO | ProductsPage | Hovering over element: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:32,821 | INFO | ProductsPage | Hover action performed successfully
+2025-12-28 00:58:32,873 | INFO | ProductsPage | Product added to cart
+2025-12-28 00:58:32,875 | INFO | ProductsPage | Navigating to Cart page after adding product
+2025-12-28 00:58:32,877 | INFO | ProductsPage | Clicking on element: ('xpath', "//u[text()='View Cart']")
+2025-12-28 00:58:37,605 | INFO | ProductsPage | Element clicked successfully
+2025-12-28 00:58:37,606 | INFO | test_invoice | Navigating to Cart page
+2025-12-28 00:58:37,608 | INFO | CartPage | Clicking on Cart button
+2025-12-28 00:58:37,608 | INFO | CartPage | Clicking on element: ('xpath', "//a[@href='/view_cart']")
+2025-12-28 00:58:41,840 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:58:41,842 | INFO | CartPage | Verifying Cart page title is visible
+2025-12-28 00:58:41,893 | INFO | CartPage | Cart page displayed successfully
+2025-12-28 00:58:41,895 | INFO | test_invoice | Proceeding to checkout from cart
+2025-12-28 00:58:41,897 | INFO | CartPage | Clicking Proceed To Checkout button
+2025-12-28 00:58:41,900 | INFO | CartPage | Clicking on element: ('xpath', "//a[text()='Proceed To Checkout']")
+2025-12-28 00:58:42,165 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:58:42,168 | INFO | test_invoice | Navigating to Signup / Login page
+2025-12-28 00:58:42,171 | INFO | CartPage | Clicking Register / Login link from cart page
+2025-12-28 00:58:42,178 | INFO | CartPage | Clicking on element: ('xpath', "//u[text()='Register / Login']")
+2025-12-28 00:58:45,027 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:58:45,044 | INFO | test_invoice | Signup / Login page verified via URL
+2025-12-28 00:58:45,046 | INFO | test_invoice | Registering a new user
+2025-12-28 00:58:45,047 | INFO | SignupLoginPage | Starting signup with name='User_rjumxy', email='user_rjumxy@testmail.com'
+2025-12-28 00:58:45,538 | INFO | SignupLoginPage | Signup name and email entered
+2025-12-28 00:58:46,622 | INFO | SignupLoginPage | Signup button clicked
+2025-12-28 00:58:46,622 | INFO | test_invoice | Filling account details and creating account
+2025-12-28 00:58:46,625 | INFO | AccountCreationPage | Filling account details for new user
+2025-12-28 00:58:46,730 | INFO | AccountCreationPage | Password entered (masked)
+2025-12-28 00:58:48,109 | INFO | AccountCreationPage | Personal and address details filled successfully (First Name, Last Name, Address, City, State, Zipcode, Mobile)
+2025-12-28 00:58:48,113 | INFO | AccountCreationPage | Initiating account creation
+2025-12-28 00:58:48,139 | INFO | AccountCreationPage | Create Account button scrolled into view
+2025-12-28 00:58:51,530 | INFO | AccountCreationPage | Create Account button clicked
+2025-12-28 00:58:51,537 | INFO | AccountCreationPage | Verifying account creation success message
+2025-12-28 00:58:51,577 | INFO | AccountCreationPage | Account successfully created
+2025-12-28 00:58:53,455 | INFO | AccountCreationPage | Clicked Continue after account creation
+2025-12-28 00:58:53,457 | INFO | test_invoice | Verifying logged-in state
+2025-12-28 00:58:53,460 | INFO | SignupLoginPage | Verifying user login status
+2025-12-28 00:58:53,497 | INFO | SignupLoginPage | User logged in successfully
+2025-12-28 00:58:53,498 | INFO | test_invoice | Navigating back to Cart and proceeding to checkout
+2025-12-28 00:58:53,501 | INFO | CartPage | Clicking on Cart button
+2025-12-28 00:58:53,502 | INFO | CartPage | Clicking on element: ('xpath', "//a[@href='/view_cart']")
+2025-12-28 00:58:56,627 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:58:56,628 | INFO | CartPage | Clicking Proceed To Checkout button
+2025-12-28 00:58:56,630 | INFO | CartPage | Clicking on element: ('xpath', "//a[text()='Proceed To Checkout']")
+2025-12-28 00:58:58,199 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:58:58,202 | INFO | test_invoice | Verifying address details and order review section
+2025-12-28 00:58:58,205 | INFO | CheckoutPage | Verifying Address Details section is visible on checkout page
+2025-12-28 00:58:58,254 | INFO | CheckoutPage | Address Details section verified successfully
+2025-12-28 00:58:58,259 | INFO | test_invoice | Entering order comment and placing order
+2025-12-28 00:58:58,261 | INFO | CheckoutPage | Entering comment in order comment text area
+2025-12-28 00:58:58,699 | INFO | CheckoutPage | Order comment entered successfully
+2025-12-28 00:58:58,702 | INFO | CheckoutPage | Clicking on Place Order button
+2025-12-28 00:59:00,645 | INFO | CheckoutPage | Place Order button clicked successfully
+2025-12-28 00:59:00,651 | INFO | test_invoice | Entering payment details and confirming order
+2025-12-28 00:59:00,654 | INFO | PaymentPage | Entering payment details (card data masked)
+2025-12-28 00:59:01,705 | INFO | PaymentPage | Payment details entered successfully
+2025-12-28 00:59:01,750 | INFO | PaymentPage | Attempting to confirm order
+2025-12-28 00:59:01,774 | INFO | PaymentPage | Pay & Confirm button scrolled into view
+2025-12-28 00:59:05,679 | INFO | PaymentPage | Order confirmed using JavaScript click
+2025-12-28 00:59:05,682 | INFO | test_invoice | Verifying successful order placement
+2025-12-28 00:59:05,685 | INFO | PaymentPage | Verifying order success confirmation message
+2025-12-28 00:59:06,378 | INFO | PaymentPage | Order success message verified successfully
+2025-12-28 00:59:06,381 | INFO | test_invoice | Downloading invoice and verifying download
+2025-12-28 00:59:06,384 | INFO | PaymentPage | Clicking Download Invoice button
+2025-12-28 00:59:07,107 | INFO | PaymentPage | Download Invoice button clicked
+2025-12-28 00:59:07,112 | INFO | PaymentPage | Verifying invoice download in Downloads folder (timeout=10s)
+2025-12-28 00:59:07,188 | INFO | PaymentPage | Invoice file detected successfully
+2025-12-28 00:59:07,191 | INFO | test_invoice | Deleting user account and verifying deletion
+2025-12-28 00:59:07,195 | INFO | PaymentPage | Initiating account deletion
+2025-12-28 00:59:11,302 | INFO | PaymentPage | Delete Account button clicked
+2025-12-28 00:59:11,305 | INFO | PaymentPage | Verifying account deletion confirmation
+2025-12-28 00:59:11,358 | INFO | PaymentPage | Account deleted successfully
+2025-12-28 00:59:11,360 | INFO | test_invoice | ===== Test completed successfully: Download invoice after purchase =====

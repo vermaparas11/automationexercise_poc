@@ -1,0 +1,39 @@
+2025-12-28 00:58:09,202 | INFO | test_cart_flow | ===== Test started: Add products and verify cart =====
+2025-12-28 00:58:09,204 | INFO | test_cart_flow | Launching AutomationExercise application
+2025-12-28 00:58:09,205 | INFO | HomePage | Navigating to AutomationExercise home page
+2025-12-28 00:58:16,403 | INFO | HomePage | Home page opened successfully
+2025-12-28 00:58:16,406 | INFO | HomePage | Verifying home page visibility using page title
+2025-12-28 00:58:16,445 | INFO | HomePage | Home page title verified: Automation Exercise
+2025-12-28 00:58:16,447 | INFO | test_cart_flow | Navigating to Products page
+2025-12-28 00:58:16,455 | INFO | HomePage | Clicking on Products button from home page
+2025-12-28 00:58:16,457 | INFO | HomePage | Clicking on element: ('xpath', "//a[@href='/products']")
+2025-12-28 00:58:19,160 | INFO | HomePage | Element clicked successfully
+2025-12-28 00:58:19,163 | INFO | test_cart_flow | Adding first product to cart
+2025-12-28 00:58:19,165 | INFO | ProductsPage | Adding first product to cart
+2025-12-28 00:58:19,170 | INFO | ProductsPage | Adding product to cart using locator: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:19,172 | INFO | ProductsPage | Scrolling element into view: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:19,483 | INFO | ProductsPage | Element scrolled into view successfully
+2025-12-28 00:58:19,488 | INFO | ProductsPage | Hovering over element: ('xpath', "(//div[@class='product-image-wrapper'])[1]")
+2025-12-28 00:58:19,855 | INFO | ProductsPage | Hover action performed successfully
+2025-12-28 00:58:19,892 | INFO | ProductsPage | Product added to cart
+2025-12-28 00:58:19,893 | INFO | ProductsPage | Continuing shopping after adding product
+2025-12-28 00:58:19,894 | INFO | ProductsPage | Clicking on element: ('xpath', "//button[@class='btn btn-success close-modal btn-block']")
+2025-12-28 00:58:20,606 | INFO | ProductsPage | Element clicked successfully
+2025-12-28 00:58:20,609 | INFO | test_cart_flow | Adding second product to cart
+2025-12-28 00:58:20,611 | INFO | ProductsPage | Adding second product to cart and navigating to cart
+2025-12-28 00:58:20,612 | INFO | ProductsPage | Adding product to cart using locator: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:20,613 | INFO | ProductsPage | Scrolling element into view: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:20,655 | INFO | ProductsPage | Element scrolled into view successfully
+2025-12-28 00:58:20,656 | INFO | ProductsPage | Hovering over element: ('xpath', "(//div[@class='product-image-wrapper'])[2]")
+2025-12-28 00:58:20,965 | INFO | ProductsPage | Hover action performed successfully
+2025-12-28 00:58:20,992 | INFO | ProductsPage | Product added to cart
+2025-12-28 00:58:20,994 | INFO | ProductsPage | Navigating to Cart page after adding product
+2025-12-28 00:58:20,995 | INFO | ProductsPage | Clicking on element: ('xpath', "//u[text()='View Cart']")
+2025-12-28 00:58:22,553 | INFO | ProductsPage | Element clicked successfully
+2025-12-28 00:58:22,555 | INFO | test_cart_flow | Verifying cart contains exactly 2 products
+2025-12-28 00:58:22,579 | INFO | CartPage | Verifying number of products in cart. Expected: 2, Actual: 2
+2025-12-28 00:58:22,580 | INFO | test_cart_flow | Verifying price, quantity and total for all cart items
+2025-12-28 00:58:22,590 | INFO | CartPage | Verifying price, quantity, and total for 2 products
+2025-12-28 00:58:22,944 | INFO | CartPage | Product 1 -> Price: Rs. 500, Quantity: 1, Total: Rs. 500
+2025-12-28 00:58:23,043 | INFO | CartPage | Product 2 -> Price: Rs. 400, Quantity: 1, Total: Rs. 400
+2025-12-28 00:58:23,044 | INFO | test_cart_flow | ===== Test completed successfully: Add products and verify cart =====

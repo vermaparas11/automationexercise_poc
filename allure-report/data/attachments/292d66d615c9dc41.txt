@@ -1,0 +1,1 @@
+2025-12-28 00:59:23,178 | INFO | CartPage | Signup / Login page navigation successful

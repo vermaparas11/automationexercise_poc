@@ -1,0 +1,1 @@
+2025-12-28 00:58:45,044 | INFO | test_invoice | Signup / Login page verified via URL

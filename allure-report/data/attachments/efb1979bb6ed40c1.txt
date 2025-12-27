@@ -1,0 +1,1 @@
+2025-12-28 00:58:19,163 | INFO | test_cart_flow | Adding first product to cart

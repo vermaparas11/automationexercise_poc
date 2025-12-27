@@ -1,0 +1,1 @@
+2025-12-28 00:59:13,114 | INFO | HomePage | Home page opened successfully

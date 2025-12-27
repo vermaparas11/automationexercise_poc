@@ -1,0 +1,1 @@
+2025-12-28 00:59:37,542 | INFO | test_search_cart_after_login | ===== Test completed successfully: Search products and verify cart after login =====

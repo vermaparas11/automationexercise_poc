@@ -1,0 +1,1 @@
+2025-12-28 00:58:22,555 | INFO | test_cart_flow | Verifying cart contains exactly 2 products

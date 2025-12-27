@@ -1,0 +1,72 @@
+2025-12-28 00:59:11,395 | INFO | test_search_cart_after_login | ===== Test started: Search products and verify cart after login =====
+2025-12-28 00:59:11,396 | INFO | test_search_cart_after_login | Product to search: Tshirt
+2025-12-28 00:59:11,397 | INFO | test_search_cart_after_login | Generated random user for test: user_esllzr@testmail.com
+2025-12-28 00:59:11,399 | INFO | test_search_cart_after_login | Launching AutomationExercise application
+2025-12-28 00:59:11,400 | INFO | HomePage | Navigating to AutomationExercise home page
+2025-12-28 00:59:13,114 | INFO | HomePage | Home page opened successfully
+2025-12-28 00:59:13,118 | INFO | HomePage | Verifying home page visibility using page title
+2025-12-28 00:59:13,143 | INFO | HomePage | Home page title verified: Automation Exercise
+2025-12-28 00:59:13,144 | INFO | test_search_cart_after_login | Navigating to Products page
+2025-12-28 00:59:13,147 | INFO | HomePage | Clicking on Products button from home page
+2025-12-28 00:59:13,148 | INFO | HomePage | Clicking on element: ('xpath', "//a[@href='/products']")
+2025-12-28 00:59:15,313 | INFO | HomePage | Element clicked successfully
+2025-12-28 00:59:15,315 | INFO | test_search_cart_after_login | Searching for product: Tshirt
+2025-12-28 00:59:15,322 | INFO | ProductsPage | Searching for product with name: Tshirt
+2025-12-28 00:59:17,609 | INFO | ProductsPage | Search submitted successfully
+2025-12-28 00:59:17,613 | INFO | test_search_cart_after_login | Verifying searched products visibility
+2025-12-28 00:59:17,615 | INFO | ProductsPage | Verifying 'Searched Products' section is visible
+2025-12-28 00:59:17,693 | INFO | ProductsPage | Number of searched products found: 6
+2025-12-28 00:59:17,695 | INFO | test_search_cart_after_login | Adding all searched products to cart
+2025-12-28 00:59:17,696 | INFO | ProductsPage | Adding all searched products to cart
+2025-12-28 00:59:17,712 | INFO | ProductsPage | Total searched products to add: 6
+2025-12-28 00:59:17,715 | INFO | ProductsPage | Adding product 1 of 6
+2025-12-28 00:59:17,845 | INFO | ProductsPage | Clicking Continue Shopping
+2025-12-28 00:59:18,258 | INFO | ProductsPage | Adding product 2 of 6
+2025-12-28 00:59:18,291 | INFO | ProductsPage | Clicking Continue Shopping
+2025-12-28 00:59:18,715 | INFO | ProductsPage | Adding product 3 of 6
+2025-12-28 00:59:18,861 | INFO | ProductsPage | Clicking Continue Shopping
+2025-12-28 00:59:19,240 | INFO | ProductsPage | Adding product 4 of 6
+2025-12-28 00:59:19,274 | INFO | ProductsPage | Clicking Continue Shopping
+2025-12-28 00:59:19,690 | INFO | ProductsPage | Adding product 5 of 6
+2025-12-28 00:59:19,746 | INFO | ProductsPage | Clicking Continue Shopping
+2025-12-28 00:59:20,143 | INFO | ProductsPage | Adding product 6 of 6
+2025-12-28 00:59:20,180 | INFO | ProductsPage | All searched products added to cart successfully
+2025-12-28 00:59:20,182 | INFO | test_search_cart_after_login | Verifying products in cart before login
+2025-12-28 00:59:20,186 | INFO | CartPage | Clicking on Cart button
+2025-12-28 00:59:20,188 | INFO | CartPage | Clicking on element: ('xpath', "//a[@href='/view_cart']")
+2025-12-28 00:59:21,686 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:59:21,689 | INFO | CartPage | Verifying Cart page title is visible
+2025-12-28 00:59:21,712 | INFO | CartPage | Cart page displayed successfully
+2025-12-28 00:59:21,723 | INFO | CartPage | Number of products present in cart: 6
+2025-12-28 00:59:21,726 | INFO | test_search_cart_after_login | Registering a new user from cart page
+2025-12-28 00:59:21,726 | INFO | CartPage | Navigating to Signup / Login page from cart
+2025-12-28 00:59:23,178 | INFO | CartPage | Signup / Login page navigation successful
+2025-12-28 00:59:23,180 | INFO | SignupLoginPage | Starting signup with name='User_esllzr', email='user_esllzr@testmail.com'
+2025-12-28 00:59:23,609 | INFO | SignupLoginPage | Signup name and email entered
+2025-12-28 00:59:25,060 | INFO | SignupLoginPage | Signup button clicked
+2025-12-28 00:59:25,062 | INFO | AccountCreationPage | Filling account details for new user
+2025-12-28 00:59:26,079 | INFO | AccountCreationPage | Password entered (masked)
+2025-12-28 00:59:27,032 | INFO | AccountCreationPage | Personal and address details filled successfully (First Name, Last Name, Address, City, State, Zipcode, Mobile)
+2025-12-28 00:59:27,040 | INFO | AccountCreationPage | Initiating account creation
+2025-12-28 00:59:27,076 | INFO | AccountCreationPage | Create Account button scrolled into view
+2025-12-28 00:59:29,108 | INFO | AccountCreationPage | Create Account button clicked
+2025-12-28 00:59:29,111 | INFO | AccountCreationPage | Verifying account creation success message
+2025-12-28 00:59:29,157 | INFO | AccountCreationPage | Account successfully created
+2025-12-28 00:59:30,986 | INFO | AccountCreationPage | Clicked Continue after account creation
+2025-12-28 00:59:30,988 | INFO | test_search_cart_after_login | Verifying user is logged in
+2025-12-28 00:59:30,990 | INFO | SignupLoginPage | Verifying user login status
+2025-12-28 00:59:31,207 | INFO | SignupLoginPage | User logged in successfully
+2025-12-28 00:59:31,208 | INFO | test_search_cart_after_login | Logging out from application
+2025-12-28 00:59:31,210 | INFO | HomePage | Waiting for user to be logged in (Logged in as visible)
+2025-12-28 00:59:31,246 | INFO | HomePage | Clicking on Logout button
+2025-12-28 00:59:32,585 | INFO | HomePage | Logout action performed successfully
+2025-12-28 00:59:32,588 | INFO | test_search_cart_after_login | Logging in with existing user credentials
+2025-12-28 00:59:32,590 | INFO | SignupLoginPage | Attempting login with email='user_esllzr@testmail.com'
+2025-12-28 00:59:33,262 | INFO | SignupLoginPage | Login credentials entered (password masked)
+2025-12-28 00:59:33,420 | INFO | SignupLoginPage | Login button clicked
+2025-12-28 00:59:33,421 | INFO | test_search_cart_after_login | Verifying cart contents after login
+2025-12-28 00:59:33,423 | INFO | CartPage | Clicking on Cart button
+2025-12-28 00:59:33,424 | INFO | CartPage | Clicking on element: ('xpath', "//a[@href='/view_cart']")
+2025-12-28 00:59:37,496 | INFO | CartPage | Element clicked successfully
+2025-12-28 00:59:37,540 | INFO | CartPage | Number of products present in cart: 6
+2025-12-28 00:59:37,542 | INFO | test_search_cart_after_login | ===== Test completed successfully: Search products and verify cart after login =====

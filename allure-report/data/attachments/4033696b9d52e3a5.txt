@@ -1,0 +1,1 @@
+2025-12-28 00:59:07,112 | INFO | PaymentPage | Verifying invoice download in Downloads folder (timeout=10s)

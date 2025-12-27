@@ -1,0 +1,1 @@
+2025-12-28 00:58:31,688 | INFO | ProductsPage | Clicking on element: ('xpath', "//button[@class='btn btn-success close-modal btn-block']")

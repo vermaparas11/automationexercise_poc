@@ -1,0 +1,1 @@
+2025-12-28 00:58:51,577 | INFO | AccountCreationPage | Account successfully created

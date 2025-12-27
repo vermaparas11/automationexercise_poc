@@ -1,0 +1,1 @@
+2025-12-28 00:59:17,696 | INFO | ProductsPage | Adding all searched products to cart

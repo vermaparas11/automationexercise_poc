@@ -1,0 +1,1 @@
+2025-12-28 00:58:30,412 | INFO | ProductsPage | Adding first product to cart

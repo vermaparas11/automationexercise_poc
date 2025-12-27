@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13843","test_add_products_and_verify_cart","tests","2025-12-28","passed","2025-12-28","","test_cart_flow","",""
+"","26150","test_search_products_and_verify_cart","tests","2025-12-28","passed","2025-12-28","","test_search_cart_after_login","",""
+"","48238","test_download_invoice","tests","2025-12-28","passed","2025-12-28","","test_invoice","",""

@@ -1,6 +1,20 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
-.idea/
-allure-report/
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Logs & reports
+logs/
 reports/
+downloads/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/

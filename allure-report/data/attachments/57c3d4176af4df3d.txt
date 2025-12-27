@@ -1,0 +1,1 @@
+2025-12-28 00:58:22,579 | INFO | CartPage | Verifying number of products in cart. Expected: 2, Actual: 2

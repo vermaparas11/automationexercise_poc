@@ -1,0 +1,1 @@
+2025-12-28 00:59:32,588 | INFO | test_search_cart_after_login | Logging in with existing user credentials

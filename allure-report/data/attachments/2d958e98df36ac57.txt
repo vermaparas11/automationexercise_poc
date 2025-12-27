@@ -1,0 +1,1 @@
+2025-12-28 00:58:20,611 | INFO | ProductsPage | Adding second product to cart and navigating to cart

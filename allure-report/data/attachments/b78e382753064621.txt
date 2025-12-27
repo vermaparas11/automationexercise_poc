@@ -1,0 +1,1 @@
+2025-12-28 00:59:21,726 | INFO | test_search_cart_after_login | Registering a new user from cart page

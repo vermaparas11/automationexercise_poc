@@ -1,0 +1,1 @@
+2025-12-28 00:59:07,107 | INFO | PaymentPage | Download Invoice button clicked

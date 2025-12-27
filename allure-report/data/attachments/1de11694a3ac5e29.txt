@@ -1,0 +1,1 @@
+2025-12-28 00:59:20,188 | INFO | CartPage | Clicking on element: ('xpath', "//a[@href='/view_cart']")
