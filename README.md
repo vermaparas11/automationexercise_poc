@@ -66,6 +66,15 @@ automationexercise-poc/
 - Download invoice
 - Delete account
 
+### Scenario 3: Search Products & Verify Cart After Login
+
+- Search for products
+- Add searched products to cart
+- Register user
+- Logout and login again
+- Verify cart items getting displayed after login
+
+Verify cart persistence after login
 ---
 
 ##  How to Run Tests
@@ -83,14 +92,25 @@ allure serve reports
 allure generate reports -o allure-report --clean
 
 ---
-## Screen shot on Failure
--Screenshots are automatically captured on test failure
--Attached directly to Allure reports
--Implemented using Pytest hooks
+## Screenshot on Failure
+- Screenshots are automatically captured on test failure
+- Attached directly to Allure reports
+- Implemented using Pytest hooks
 ---
+## Test Data Handling
+- Dynamic user creation using random dat
+- Ensures tests are independent and repeatable
+- No dependency on pre-existing accounts
+---
+
 ## Author
 ### Paras Verma
 ### Senior Test Analyst
 ### Python | Selenium | Pytest |Automation
+
+---
+### Notes
+- The logs/, reports/, and virtual environment directories are excluded from version control.
+
 
 
